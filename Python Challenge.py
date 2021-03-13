@@ -1,11 +1,11 @@
 print ("Enter Details User 1")
 name_1 = input ("Enter Your Name: ")
-password = input ("Enter User Password: ")
+password_1 = input ("Enter User Password: ")
 age_1 = int(input ("Enter Your Age: "))
 print ("__________________________________")
 print ("Enter Details User 2")
 name_2 = input ("Enter Your Name: ")
-password = input ("Enter User Password: ") 
+password_2 = input ("Enter User Password: ") 
 age_2 = int(input ("Enter Your Age: "))
 print ("__________________________________")
 number_list = [age_1,age_2]
@@ -13,7 +13,6 @@ avg = sum(number_list)/len(number_list)
 print ('Users: {} and {}'.format(name_1,name_2))
 print('Total Age: ',age_1+age_2)
 print('Average Age: ',avg,2)
-
 
 # nameOne = input("Enter 1st Name\n")
 # password = input("Enter password\n")
@@ -36,3 +35,5 @@ print('Average Age: ',avg,2)
 # print("Average", average)
 
 #easy method XD by @reboot13-git
+=======
+
